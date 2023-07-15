@@ -1,6 +1,6 @@
 # sadet.autodb
 
-A bundle of software which automatically loads steam
+A bundle of script and programs which automatically loads steam
 achievement data and overtime and allows for said data
 to be displayed in a dashboard.
 
