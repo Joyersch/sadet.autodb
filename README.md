@@ -10,7 +10,7 @@ A bundle of scripts and programs which:
 
 Contains the service which loads data regularly into the database.
 
-## sadet.autoldb.api
+## sadet.autodb.api
 Contains the database creation script and api for said database.
 
 ## sadet.autodb.dashboard
