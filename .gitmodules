@@ -1,0 +1,12 @@
+[submodule "sadet"]
+	path = sadet
+	url = https://github.com/Joyersch/sadet.git
+[submodule "sadet.autodb.service"]
+	path = sadet.autodb.service
+	url = https://github.com/Joyersch/sadet.autodb.service.git
+[submodule "sadet.autodb.api"]
+	path = sadet.autodb.api
+	url = https://github.com/Joyersch/sadet.autodb.api.git
+[submodule "sadet.autodb.dashboard"]
+	path = sadet.autodb.dashboard
+	url = https://github.com/Joyersch/sadet.autodb.dashboard.git
