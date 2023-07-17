@@ -7,6 +7,3 @@
 [submodule "sadet.autodb.api"]
 	path = sadet.autodb.api
 	url = https://github.com/Joyersch/sadet.autodb.api.git
-[submodule "sadet.autodb.dashboard"]
-	path = sadet.autodb.dashboard
-	url = https://github.com/Joyersch/sadet.autodb.dashboard.git
