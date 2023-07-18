@@ -105,7 +105,7 @@ psql -f create_database.sql
 ## Services
 
 In the directory `sadet.autodb.service` are two service files as well as a `sadet.output.d` folder.
-The service files will need to be moved over to `/lib/systemd/system`.  
+The service files will need to be moved over to `/lib/systemd/system` or `/etc/systemd/system`.  
 **Please edit the files beforehand with your own configuration**  
 The `sadet.output.d`-folder can be placed anywhere, as long as systemd has access
 to the folder and the path is set in the `sadet.autodb.service`-file.
