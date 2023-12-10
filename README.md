@@ -133,5 +133,3 @@ If you did not change the url, you can access the dashboard under `[server-ip]:1
 If nothing is displaying, check the browser console.  
 
 In the case of an CORS, change the url in `/bin/sadet.autodb.api.d/wwwroot/index.html`.  
-
-```
