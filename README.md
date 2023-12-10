@@ -134,12 +134,4 @@ If nothing is displaying, check the browser console.
 
 In the case of an CORS, change the url in `/bin/sadet.autodb.api.d/wwwroot/index.html`.  
 
-## Using the Dashbaord
-
-With the `appid` parameter you are able to load multiple games for the dashboard.  
-On default it will load the average.
-
-For example, this will display the average, csgo and half life 2:
-```
-http://localhost:10875/?appid=-1+730+220
 ```
