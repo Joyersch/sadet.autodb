@@ -8,7 +8,18 @@ running as a [service](https://github.com/Joyersch/sadet.autodb.service).
 [api](https://github.com/Joyersch/sadet.autodb.api).
 3. Has its own dashboard for said data.
 
-# Installation
+# Example Images from the Dashboard
+
+![Img1](README.assets/7d0766a2-e13b-492b-82de-bdebd6df6e9b.png)
+![Img2](README.assets/90c11d23-1152-4e27-a38e-447cc0967255.png)
+![Img3](README.assets/c76bc76b-136d-4898-9e43-c1e1c74f6b1b.png)
+
+# Note
+
+There are many ways to install this software.
+It just requires a postresql database server to connect to.
+
+# Installation on Linux
 
 First of all, this installation guide will be
 for Debian // [Raspberry Pi OS](https://www.raspdberrypi.com/software/),
