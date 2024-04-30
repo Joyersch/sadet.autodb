@@ -3,9 +3,8 @@
 A bundle of programs and systemd services which:
 1. Automatically loads steam achievement data overtime using
 [sadet](https://github.com/Joyersch/sadet),
-running as a [service](https://github.com/Joyersch/sadet.autodb.service).  
-2. Allows for said data to be accessed by an
-[api](https://github.com/Joyersch/sadet.autodb.api).
+running as a service.  
+2. Allows for said data to be accessed by api.
 3. Has its own dashboard for said data.
 
 # Example Images from the Dashboard
