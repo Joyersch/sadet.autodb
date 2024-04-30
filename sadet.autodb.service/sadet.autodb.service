@@ -1,0 +1,11 @@
+[Unit]
+Description=Sadet auto db
+
+[Service]
+WorkingDirectory=/home/pi/sadet.output.d/
+ExecStart=python3 run.py
+Restart=always
+RestartSec=28800
+
+[Install]
+WantedBy=default.target

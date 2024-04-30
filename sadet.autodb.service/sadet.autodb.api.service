@@ -1,0 +1,11 @@
+[Unit]
+Description=Sadet auto db api
+
+[Service]
+WorkingDirectory=/bin/sadet.autodb.api.d/
+ExecStart=/bin/sadet.autodb.api.d/sadet.autodb.api --urls "http://0.0.0.0:10875"
+Restart=always
+RestartSec=900
+
+[Install]
+WantedBy=default.target

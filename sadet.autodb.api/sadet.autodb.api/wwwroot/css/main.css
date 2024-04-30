@@ -1,0 +1,154 @@
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.data-selection {
+    display: flex;
+    flex-direction: column;
+}
+
+.data-manipulation-inner {
+    width: 100%;
+    padding: 0 2.5% 0 2.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.data-manipulation {
+    margin: 1% 1% 0.5% 1%;
+}
+
+.data-search {
+    left: 0;
+    width: 60%;
+}
+
+.data-search input[type='text'] {
+    width: 94.5%;
+}
+
+.data-option {
+    display: flex;
+    justify-content: left;
+    width: 60%;
+    right: 100%;
+}
+
+.data-option label {
+    margin: 0 0.5% 0 0.5%;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin: 0.5% 1% 0.5% 1%;
+}
+
+.data-table {
+    padding: 0;
+    width: 100%;
+    margin: 0.5% 2.5% 0.5% 2.5%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.data-table td:nth-child(3), th:nth-child(3) {
+    border-left: 1px solid black;
+}
+
+.data-table th {
+    border-bottom: 1px solid black;
+}
+
+
+.data-table td:nth-child(3) {
+    text-align: center;
+}
+
+
+.data-paging {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0.5% 0 2.5% 0;
+}
+
+.data-paging button {
+    width: 5%;
+}
+
+.data-paging div {
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 5% 0% 5%;
+}
+
+.outer-chart {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    height: 50%;
+}
+
+.pie-chart {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+}
+
+.pie-chart-inner {
+    width: 60%;
+}
+
+.chart {
+    width: 40%;
+    height: 100%;
+}
+
+
+.chart-info-display {
+    display: flex;
+    flex-direction: column;
+    font-size: xxx-large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chart-control select {
+    width: 100%;
+}
+
+.highlight {
+    background: #cdcdcd;
+}
+
+@media (orientation: portrait) {
+    .outer-chart {
+        flex-flow: column;
+    }
+
+    .pie-chart {
+        width: 100%;
+        height: 40%;
+    }
+
+    .chart {
+        width: 100%;
+        height: 40%;
+    }
+
+    .line-chart {
+        witdh: 100%;
+        justify-content: center;
+    }
+}
+
